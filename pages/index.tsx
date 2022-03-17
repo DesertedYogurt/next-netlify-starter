@@ -6,7 +6,7 @@ import { useStore } from '../lib/state'
 
 const Home: NextPage = () => {
   const { mouseY, mouseX } = useStore(state => state.mousePos)
-  const scrollData = useStore(state => state.scrollData)
+  // const scrollData = useStore(state => state.scrollData)
 
   return (
     <>
