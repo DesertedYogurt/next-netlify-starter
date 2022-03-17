@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.headerFont{
+  font-family: 'Bungee', 'ui-sans-serif', 'system-ui'
+}
+html {
+  font-family: 'Open Sans', 'ui-sans-serif', 'system-ui';
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+/* 
+:root{
+  --white: 255, 255, 255;
+  --bg: 39, 38, 44;
+  --grey: 156, 163, 175;
+  --dark-grey: 98, 101, 105;
+  --light-grey: 212, 214, 217;
+  --very-light-grey: 230, 233, 237;
+  --black: 34, 34, 34;
+  --midnight: 45, 44, 44;
+
+  --red: 247, 74, 74;
+  --red-dark: 207, 72, 72;
+  --green: 73, 191, 71;
+  --orange: 230, 110, 50;
+  --blue: 55, 100, 191;
+
+  --prime-dark: 44, 78, 194;
+  --prime: 37, 104, 247;
+  --prime-light: 70, 127, 212;
+} */
+
+
+.theme-dark{
+  --white: 255, 255, 255;
+  --grey: 156, 163, 175;
+  --dark-grey: 98, 101, 105;
+  --light-grey: 212, 214, 217;
+  --very-light-grey: 230, 233, 237;
+  --black: 34, 34, 34;
+  --midnight: 45, 44, 44;
+
+  --red: 247, 74, 74;
+  --red-dark: 207, 72, 72;
+  --green: 73, 191, 71;
+  --orange: 230, 110, 50;
+  --blue: 55, 100, 191;
+
+  --prime-dark: 213, 45, 138; /* 44, 78, 194; */
+  --prime: 249, 59, 179; /* 37, 104, 247; */
+  --prime-light: 72, 40, 124; /* 70, 127, 212; */
+}
+
+
+.theme-light{
+  --white: 34, 34, 34; /* black */
+  --grey: 156, 163, 175;
+  --dark-grey: 98, 101, 105;
+  --light-grey: 212, 214, 217;
+  --very-light-grey: 230, 233, 237;
+  --black: 255, 255, 255; /* white */
+  --midnight: 237, 212, 182;
+  /* --midnight: 218, 195, 161; */
+  /* rgb(218, 195, 161) */
+  --red: 247, 74, 74;
+  --red-dark: 207, 72, 72;
+  --green: 73, 191, 71;
+  --orange: 230, 110, 50;
+  --blue: 55, 100, 191;
+
+  --prime-dark: 44, 78, 194;
+  --prime: 37, 104, 247;
+  --prime-light: 70, 127, 212;
+}
