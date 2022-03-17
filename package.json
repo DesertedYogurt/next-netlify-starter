@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "export": "next export"
   },
   "dependencies": {
     "eslint-plugin-react-prefer-function-component": "^1.0.0",
